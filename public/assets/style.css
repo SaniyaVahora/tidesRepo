@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+body{
+    position: relative;
+    /* top:2vw; */
+    height: 200vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,68,143));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    justify-content: space-around; 
+}
+.fa-thumbs-up{
+    color:lightgreen;
+}
+.fa-thumbs-down{
+    color:lightsalmon;
+}
+
+.location-timezone{
+    font-size: 40px;
+}
+.location .fa-thumbs-up{
+    font-size: 40px;
+}
+.location,
+.temperature-tides-main-box{
+    height: 10vw;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10vw,auto;
+}
+.temperature-tides-main-box{
+    height: 30vh;
+    flex-direction: column;
+    /* background-color: rgb(98, 230, 131); */
+}
+.temperature-tides{
+    width: 100%;
+    justify-content: center;
+    align-items: center;   
+    display: flex;
+    cursor: pointer; 
+    padding: 30px;
+    border: 2px solid ;
+    background-color: rgb(98, 230, 131);
+}
+.fa-water,#tides{
+    padding-right: 5vw;
+    font-size: 35px;
+}
+#tides{
+    padding-left: 15px;
+}
+.fa-temperature-high,.temperature-degree,.c{
+    font-size: 35px;
+    padding-left:3px;
+}
+.temperature-degree{
+    padding-left:10px;
+    font-size: 40px;
+}
+.wind-des-sunSet{
+    height: 20vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 20px; 
+    padding: 15px;   
+    /* background-color: rgb(99, 255, 234); */
+}
+.wind{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 50px 0;
+    border: 1px solid white;
+}
+.fa-wind{
+    font-size: 30px;
+}
+.windInfor{  
+    padding-left: 1vw;
+}
+.temperature-description
+{   height: 100%;
+    width: 35%;
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid white;
+}
+.sun{
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;
+    padding: 50px 0;
+    height: 100%;
+
+}
+.forecast{
+    display: flex;
+    height: 20vh;
+    width: 80%;
+    justify-content: space-around;
+}
+.date{
+    width: 11vw;
+    height: 100%;
+    border: 1px solid white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;   
+}
+.date .forWater{
+    padding:30px;
+}
+.weekend{
+    border: 3px solid gold;
+}
+
+.forWater,#forTides{
+    font-size:20px;
+}
+#forTides{
+    padding-left: 5px;
+}
+
+@media screen and (max-width:876px) {
+    .W-D-S{
+        height: 20%;
+        width: 50%;
+        padding: 50px;    
+    }
+    .temperature-description{
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+    .wind{
+        padding: 30px;
+    }
+    .sun{
+        padding-top: 10px;
+    }
+    .forecast{
+        display: flex;
+        height: 20vw;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .date{
+        width: 11vw;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    @media screen and (max-width:540px) {
+        .sun{
+            font-size: 15px;
+        }
+        .date{
+            padding-top: 20px;
+            font-size: 15px;
+        }
+        .forWater,#forTides{
+            font-size:12px;
+        }
+    }
+}
+
+/* for Rain-forecast */
+.Rain-forecast{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.Rain-forecast div{
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 300px;
+}

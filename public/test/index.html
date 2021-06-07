@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>test</title>
+    <link rel="stylesheet" href="/assets/style.css">
+        <script src="https://kit.fontawesome.com/5cc9d58460.js" crossorigin="anonymous"></script>
+</head>
+<body>
+         <div class="location">
+        <i class="fas fa-thumbs-up"></i>
+        <h1 class="location-timezone">TimeZone</h1>
+        <img class="icon" src="" alt="">
+        <div class = "timeDiv"></div>
+        <div class = "dateDiv"></div>   
+    </div>
+    <div class="temperature-tides-main-box">
+        <div class="temperature-tides">
+            <i class="fas fa-water"><span id="tides">Low</span></i>       
+            <i class="fas fa-temperature-high"></i>
+            <h2 class="temperature-degree">0</h2>
+            <span class="c">°C</span>
+        </div>     
+        <div class="wind-des-sunSet">
+            <div class="wind W-D-S">
+                <i class="fas fa-wind"></i> 
+                <div class="windKPH windInfor"></div>
+                <div class="windDir windInfor"></div>
+            </div>
+            <div class="sun W-D-S" id="sunset"></div>
+            <div class="temperature-description W-D-S">Its friggin cold</div>
+        </div>   
+    </div>
+
+    <div class="forecast">
+        <div class="date">Mon<i class="fas fa-thumbs-up"></i>
+            <i class="forWater fas fa-water"><span id="forTides">Low</span></i>
+        </div>
+        <div class="date">Tue<i class="fas fa-thumbs-up"></i>
+            <i class="forWater fas fa-water"><span id="forTides">Low</span></i>
+        </div>
+        <div class="date">Wed<i class="fas fa-thumbs-up"></i>
+            <i class="forWater fas fa-water"><span id="forTides">Low</span></i>
+        </div>
+        <div class="date">Thu<i class="fas fa-thumbs-down"></i>
+            <i class="forWater fas fa-water"><span id="forTides">High</span></i></div>
+        <div class="date">Fri<i class="fas fa-thumbs-up"></i><i class="forWater fas fa-water"><span id="forTides">Low</span>
+            </i>
+        </div>
+        <div class="date weekend">Sat<i class="fas fa-thumbs-down"></i>
+            <i class="forWater fas fa-water"><span id="forTides">High</span>
+            </i>
+        </div>
+        <div class="date weekend">Sun<i class="fas fa-thumbs-up"></i>
+            <i class="forWater fas fa-water"><span id="forTides">Low</span></i>
+        </div>
+    </div>
+    
+
+     <div class="forecastWeek">
+        <div class = "dayOne"></div>
+        <div class = "dayTwo"></div>
+        <div class = "dayThree"></div>
+        <div class = "dayFour"></div>
+        <div class = "dayFive"></div>
+        <div class = "daySix"></div>
+        <div class = "daySeven"></div>
+    </div>
+    
+     <div class="forecastWeekWind">
+        <div class = "dayOneWind"></div>
+        <div class = "dayTwoWind"></div>
+        <div class = "dayThreeWind"></div>
+        <div class = "dayFourWind"></div>
+        <div class = "dayFiveWind"></div>
+        <div class = "daySixWind"></div>
+        <div class = "daySevenWind"></div>
+    </div>     
+
+   <div class = "tides">
+
+   </div>
+
+
+<div class="Rain-forecast">
+</div>
+    
+ 
+    <script src="/assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "project-21s1-paw-patrol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIT-Studio-2/project-21s1-paw-patrol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BIT-Studio-2/project-21s1-paw-patrol/issues"
+  },
+  "homepage": "https://github.com/BIT-Studio-2/project-21s1-paw-patrol#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy"
+  },
+  "dependencies": {
+    "eleventy": "^1.0.6"
+  }
+}
